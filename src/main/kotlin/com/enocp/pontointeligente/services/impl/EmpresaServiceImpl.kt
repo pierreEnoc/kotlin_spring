@@ -11,3 +11,4 @@ class EmpresaServiceImpl(val empresaRepository: EmpresaRepository) : EmpresaServ
   
   override fun persistir(empresa: Empresa): Empresa = empresaRepository.save(empresa)
 }
+
